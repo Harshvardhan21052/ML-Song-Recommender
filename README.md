@@ -1,2 +1,3 @@
 Mood Detection + Song Recommender System 
 If a user has currently listened to n songs, the code first determines the mood of the user by taking into consideration all the n songs. The mood determination is a 4 class classification task done using XGBoost Classifier which accurately classifies the mood as 'Happy', 'Calm', 'Energetic' or 'Sad. It calculates the average of the features like valence, danceability, acousticness etc. of all the n songs and uses those resulting values to calculate the mood of the user. Once the mood is determined, the recommender then suggests some songs similar to the average value of the features using Euclidean distance metric having the same mood as that determined. 
+* Ignore any warnings in the notebook
